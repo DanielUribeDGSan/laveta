@@ -335,7 +335,7 @@ input {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 800;
 	margin-bottom: 11px;
-	background: linear-gradient(-96deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	display: inline-block;
@@ -1552,7 +1552,7 @@ body.offcanvas-open {
 	font-size: 16px;
 	max-width: 290px;
 	line-height: 27px;
-	color: #afafaf;
+	color: var(--texto);
 	font-weight: 300;
 }
 @media only screen and (max-width: 767px) {
@@ -1576,7 +1576,7 @@ body.offcanvas-open {
 	left: 0;
 	width: 6px;
 	height: 1px;
-	background-color: #afafaf;
+	background-color: var(--blanco);
 	content: '';
 	margin-top: -0.5px;
 }
@@ -1586,7 +1586,7 @@ body.offcanvas-open {
 	padding: 0;
 	display: inline-block;
 	text-transform: capitalize;
-	color: #afafaf;
+	color: var(--blanco);
 	margin-bottom: 0;
 	display: inline-block;
 	position: relative;
@@ -1594,18 +1594,18 @@ body.offcanvas-open {
 }
 .footer-area .footer-top .single-wedge .footer-links .single-link:hover {
 	padding-left: 8px;
-	color: var(--primary);
+	color: var(--texto);
 }
 .footer-area .footer-top .single-wedge .footer-links p {
 	margin: 0 0 5px;
 	font-weight: 300;
-	color: #afafaf;
+	color: var(--blanco);
 }
 .footer-area .footer-top .single-wedge .footer-links p a {
-	color: #afafaf;
+	color: var(--blanco);
 }
 .footer-area .footer-top .single-wedge .footer-links p a:hover {
-	color: var(--primary);
+	color: var(--texto);
 }
 .footer-area .footer-top .single-wedge .footer-links .payment-img {
 	margin: 30px 0 0;
@@ -1655,7 +1655,7 @@ body.offcanvas-open {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	z-index: -1;
 	transition: opacity 0.3s linear;
 	opacity: 0;
@@ -2374,7 +2374,7 @@ body.offcanvas-open {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	border: 0;
 	border-radius: 30px;
 	font-size: 14px;
@@ -5172,7 +5172,7 @@ Pages - My Account
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	z-index: -1;
 	transition: opacity 0.3s linear;
 	opacity: 0;
@@ -5247,7 +5247,7 @@ Pages - My Account
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	border-radius: 50%;
 	margin-right: 30px;
 }
@@ -5414,7 +5414,7 @@ Pages - My Account
 	font-size: 11px;
 }
 .btn-primary.blog-btn::before {
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 }
 .btn-primary.blog-btn i {
 	margin-left: 5px;
@@ -5593,7 +5593,7 @@ Pages - My Account
 .nav-center .product-tab-nav .nav-item .nav-link:hover,
 .nav-center .product-tab-nav .nav-item .nav-link.active {
 	color: #fff;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 }
 
 .mb-n-30px {
@@ -5727,7 +5727,7 @@ Pages - My Account
 	background-color: var(--negro);
 }
 .product .thumb .badges span.sale {
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 }
 .product .thumb .actions {
 	position: absolute;
@@ -5784,14 +5784,14 @@ Pages - My Account
 	opacity: 0;
 }
 .product .thumb .actions .action.active {
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 }
 .product .thumb .add-to-cart {
 	display: block;
 	width: 60%;
 	height: 50px;
 	line-height: 45px;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	text-align: center;
 	border: 0;
 	border-radius: 30px;
@@ -6410,7 +6410,7 @@ Pages - My Account
 	text-align: center;
 	border-radius: 0 5px 5px 0;
 	border-color: #d9d9d9;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	color: #fff;
 	padding: 0;
 	z-index: 1;
@@ -6681,7 +6681,7 @@ Pages - My Account
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	z-index: -1;
 	transition: opacity 0.3s linear;
 	opacity: 0;
@@ -6826,7 +6826,7 @@ Pages - My Account
 	z-index: -1;
 	transition: opacity 0.3s linear;
 	opacity: 0;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 }
 .comment-area .single-review .review-content .review-left a:hover {
 	color: #fff;
@@ -6984,7 +6984,7 @@ Pages - My Account
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+	background: var(--primary);
 	border-radius: 50%;
 	margin-right: 30px;
 }
@@ -7921,9 +7921,15 @@ Pages - My Account
 .img-logo {
 	width: 9rem;
 }
+.img-logo-footer {
+	width: 11rem;
+}
 @media only screen and (max-width: 760px) {
 	.img-logo {
 		width: 7rem;
+	}
+	.img-logo-footer {
+		width: 9rem;
 	}
 }
 /* Banner mesa de eregalos */
@@ -7931,6 +7937,7 @@ Pages - My Account
 	position: relative;
 	display: block;
 	text-align: center;
+	height: 100%;
 }
 .texto-encima {
 	position: absolute;
@@ -8042,6 +8049,22 @@ Pages - My Account
 	font-weight: 200;
 	font-size: 18px;
 	line-height: 18px;
+}
+.newsletter > span.container > .input-footer {
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    outline: none;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid var(--blanco);
+    color: var( --blanco);
+    border-radius: 0px;
+    font-family: -apple-system, helvetica neue, helvetica, arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 18px;
 }
 .newsletter > span.container .next {
 	display: block;
@@ -8347,7 +8370,17 @@ a.control_next {
 		text-align: end;
 	}
 }
-
+/* Colletion */
+.texto-encima-collection {
+	position: absolute;
+	bottom: 8%;
+	left: 12%;
+	transform: translate(-50%, -50%);
+	text-align: end;
+}
+.title-collection {
+	font-size: 60.06px;
+}
 /* Colaboraciones */
 .colaboracion-title {
 	font-size: 42px;

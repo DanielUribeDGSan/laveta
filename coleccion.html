@@ -39,7 +39,6 @@
     <link rel="stylesheet" href="./assets/css/plugins/lg-zoom.css">
     <link rel="stylesheet" href="./assets/css/plugins/lg-thumbnail.css">
     <link type="text/css" rel="stylesheet" href="./assets/css/plugins/lightgallery-bundle.css" />
-
 </head>
 
 <body>
@@ -116,28 +115,28 @@
             <div class="body customScroll">
                 <ul class="minicart-product-list">
                     <li>
-                        <a href="single-product.html" class="image"><img src="./assets/images/product-image/1.jpg"
+                        <a href="./producto.html" class="image"><img src="./assets/images/product-image/1.jpg"
                                 alt="Cart product Image"></a>
                         <div class="content">
-                            <a href="single-product.html" class="title">Women's Elizabeth Coat</a>
+                            <a href="./producto.html" class="title">Women's Elizabeth Coat</a>
                             <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="./assets/images/product-image/2.jpg"
+                        <a href="./producto.html" class="image"><img src="./assets/images/product-image/2.jpg"
                                 alt="Cart product Image"></a>
                         <div class="content">
-                            <a href="single-product.html" class="title">Long sleeve knee length</a>
+                            <a href="./producto.html" class="title">Long sleeve knee length</a>
                             <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="./assets/images/product-image/3.jpg"
+                        <a href="./producto.html" class="image"><img src="./assets/images/product-image/3.jpg"
                                 alt="Cart product Image"></a>
                         <div class="content">
-                            <a href="single-product.html" class="title">Cool Man Wearing Leather</a>
+                            <a href="./producto.html" class="title">Cool Man Wearing Leather</a>
                             <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
@@ -201,18 +200,13 @@
             <div class="swiper-wrapper">
                 <!-- Single slider item -->
                 <div class="hero-slide-item slider-height swiper-slide">
-                    <img class="img-fluid slider-animated-1" src="./assets/images/slider-image/slider-1.jpeg?ver=1.0.2"
-                        alt="laveta" />
-                </div>
-                <!-- Single slider item -->
-                <div class="hero-slide-item slider-height swiper-slide">
-                    <img class="img-fluid slider-animated-1" src="./assets/images/slider-image/slider-2.jpeg"
-                        alt="laveta" />
-                </div>
-                <!-- Single slider item -->
-                <div class="hero-slide-item slider-height swiper-slide">
-                    <img class="img-fluid slider-animated-1" src="./assets/images/slider-image/slider-3.jpeg"
-                        alt="laveta" />
+                    <div class="contenedor-imagen">
+                        <img class="img-fluid slider-animated-1 w-100 h-100"
+                            src="./assets/images/collections/collection-1.png" alt="laveta" />
+                        <div class="texto-encima-collection">
+                            <h1 class="text-white fw-100 title-collection ml-3">Animales</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Add Pagination -->
@@ -227,135 +221,176 @@
 
     <!-- Hero/Intro Slider End -->
 
-    <!-- Banner Area Start -->
-    <div class="banner-area pt-100px pb-100px">
+    <!-- Shop Page Start  -->
+    <div class="shop-category-area pt-100px pb-100px">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="img-fluid" src="./assets/images/mesa-regalos/iconos.png" alt="laveta">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Banner Area End -->
+                    <!-- Shop Top Area Start -->
+                    <div class="shop-top-bar d-flex">
+                        <!-- Left Side start -->
+                        <p><span>12</span> Product Found of <span>30</span></p>
+                        <!-- Left Side End -->
+                        <div class="shop-tab nav">
 
-    <!-- Categorias Srart -->
-    <div class="feature-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase text-center title-categorias">Categorias</h2>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6 pr-1 espacio-categorioas-sm m-0">
-                    <div class="row p-0 m-0">
-                        <div class="col-lg-12 espacio-categorioas-sm">
-                            <a href=""><img class="img-fluid w-100" src="./assets/images/categorias/ANIMALES.png"
-                                    alt="laveta"></a>
                         </div>
-                        <div class="col-lg-6 pt-3 pr-3 espacio-categorioas-sm m-0">
-                            <a href=""><img class="img-fluid w-100" src="./assets/images/categorias/NATIURALEZA.png"
-                                    alt="laveta"></a>
+                        <!-- Right Side Start -->
+                        <div class="select-shoing-wrap d-flex align-items-center">
+                            <div class="shot-product">
+                                <p>Sort By:</p>
+                            </div>
+                            <div class="shop-select">
+                                <select class="shop-sort">
+                                    <option data-display="Relevance">Relevance</option>
+                                    <option value="1"> Name, A to Z</option>
+                                    <option value="2"> Name, Z to A</option>
+                                    <option value="3"> Price, low to high</option>
+                                    <option value="4"> Price, high to low</option>
+                                </select>
+
+                            </div>
                         </div>
-                        <div class="col-lg-6 pt-3 pl-3 espacio-categorioas-sm m-0">
-                            <a href=""><img class="img-fluid w-100" src="./assets/images/categorias/religioso.png"
-                                    alt="laveta"></a>
+                        <!-- Right Side End -->
+                    </div>
+                    <!-- Shop Top Area End -->
+
+                    <!-- Shop Bottom Area Start -->
+                    <div class="shop-bottom-area">
+
+                        <!-- Tab Content Area Start -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="shop-grid">
+                                        <div class="row mb-n-30px">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up"
+                                                data-aos-delay="200">
+                                                <!-- Single Prodect -->
+                                                <div class="product">
+                                                    <div class="thumb">
+                                                        <a href="./producto.html" class="image">
+                                                            <img src="assets/images/product-image/1.jpg"
+                                                                alt="Product" />
+                                                            <img class="hover-image"
+                                                                src="assets/images/product-image/1.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+                                                        </span>
+                                                        <div class="actions">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="content d-flex justify-content-center align-items-center">
+                                                        <h5 class="title text-center"><a href="./producto.html">CARAS
+                                                            </a>
+                                                        </h5>
+                                                        <span class="price">
+                                                            <span class="new text-center fw-100">From $ 2,120.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up"
+                                                data-aos-delay="200">
+                                                <!-- Single Prodect -->
+                                                <div class="product">
+                                                    <div class="thumb">
+                                                        <a href="./producto.html" class="image">
+                                                            <img src="assets/images/product-image/1.jpg"
+                                                                alt="Product" />
+                                                            <img class="hover-image"
+                                                                src="assets/images/product-image/1.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+                                                        </span>
+                                                        <div class="actions">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="content d-flex justify-content-center align-items-center">
+                                                        <h5 class="title text-center"><a href="./producto.html">CARAS
+                                                            </a>
+                                                        </h5>
+                                                        <span class="price">
+                                                            <span class="new text-center fw-100">From $ 2,120.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up"
+                                                data-aos-delay="200">
+                                                <!-- Single Prodect -->
+                                                <div class="product">
+                                                    <div class="thumb">
+                                                        <a href="./producto.html" class="image">
+                                                            <img src="assets/images/product-image/1.jpg"
+                                                                alt="Product" />
+                                                            <img class="hover-image"
+                                                                src="assets/images/product-image/1.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+                                                        </span>
+                                                        <div class="actions">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="content d-flex justify-content-center align-items-center">
+                                                        <h5 class="title text-center"><a href="./producto.html">CARAS
+                                                            </a>
+                                                        </h5>
+                                                        <span class="price">
+                                                            <span class="new text-center fw-100">From $ 2,120.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up"
+                                                data-aos-delay="200">
+                                                <!-- Single Prodect -->
+                                                <div class="product">
+                                                    <div class="thumb">
+                                                        <a href="./producto.html" class="image">
+                                                            <img src="assets/images/product-image/1.jpg"
+                                                                alt="Product" />
+                                                            <img class="hover-image"
+                                                                src="assets/images/product-image/1.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+                                                        </span>
+                                                        <div class="actions">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="content d-flex justify-content-center align-items-center">
+                                                        <h5 class="title text-center"><a href="./producto.html">CARAS
+                                                            </a>
+                                                        </h5>
+                                                        <span class="price">
+                                                            <span class="new text-center fw-100">From $ 2,120.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 pl-1 espacio-categorioas-sm2 m-0">
-                    <img class="img-fluid w-100 h-100" src="./assets/images/categorias/Esculturas.png" alt="laveta">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categorias End -->
+                    <!-- Tab Content Area End -->
 
-    <!-- Banner Mesa De Regalo Start -->
-    <div class="mt-3">
-        <div class="contenedor-imagen">
-            <img class="img-fluid w-100 h-100" src="./assets/images/mesa-regalos/banner-home-mesa-de-regalos.png"
-                alt="laveta">
-            <div class="texto-encima">
-                <small class="text-white">CREA O CONSULTA UNA</small>
-                <h2 class="text-white titulo-banner-regalos">Mesa de <br />regalos</h2>
-                <h4 class="text-white fw-100">De una forma muy sencilla</h4>
-                <a class="boton-banner-regalos">Aquí</a>
-            </div>
-        </div>
-    </div>
-    <!-- Banner Mesa De Regalo End -->
-
-    <!-- Newsletter Start -->
-    <div class="banner-area pt-100px pb-100px">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="p-newsletter text-center">Sigamos en contacto</p>
-                </div>
-                <div class="col-12">
-                    <form class="newsletter">
-                        <span class="container active">
-                            <input type="text" id="email" name="email" class="required" placeholder="Email addres" />
-                            <button type="submit" class="next"><svg class="arrow-newsletter" height="100px"
-                                    width="100px" class="icon icon-arrow-right" fill="#000000"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" x="0px" y="0px">
-                                    <g data-name="Group">
-                                        <path data-name="Path"
-                                            d="M81.8,50v-.4h0a.3.3,0,0,0-.1-.2c0-.1-.1-.1-.1-.2s-.1-.1-.1-.2a.1.1,0,0,1-.1-.1L58.7,25.4a2.1,2.1,0,0,0-2.9,0,1.9,1.9,0,0,0,0,2.8L74.9,48H20.2a2,2,0,0,0,0,4H75.3L55.8,71.8a2,2,0,0,0,.1,2.8,1.9,1.9,0,0,0,2.8,0l22.6-23c0-.1,0-.1.1-.2a.1.1,0,0,0,.1-.1c0-.1.1-.1.1-.2h.1v-.2a.3.3,0,0,0,.1-.2V50Z">
-                                        </path>
-                                    </g>
-                                </svg></button>
-                        </span>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Newsletter End -->
-
-    <!-- Quienes somos Start -->
-    <div class="deal-area pb-100px pt-100px">
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-6 mb-lg-0 mb-md-0 mb-4">
-                    <div id="slider">
-                        <a class="control_next"><i class="fas fa-arrow-right"></i></a>
-                        <a class="control_prev">
-                            <i class="fas fa-arrow-left"></i> </a>
-                        <ul class="slider-width">
-                            <li>
-                                <img class="img-fluid" src="./assets/images/benner-nosotros/banner-1.jpeg" alt="laveta">
-                            </li>
-                            <li>
-                                <img class="img-fluid" src="./assets/images/benner-nosotros/banner-2.jpeg" alt="laveta">
-                            </li>
-                            <li>
-                                <img class="img-fluid" src="./assets/images/benner-nosotros/banner-3.jpeg" alt="laveta">
-                            </li>
-                        </ul>
+                    <!--  Pagination Area Start -->
+                    <div class="load-more-items text-center mt-30px0px" data-aos="fade-up">
+                        <a href="#" class="btn btn-lg btn-primary btn-hover-dark m-auto"> Load More <i
+                                class="fa fa-refresh ml-15px" aria-hidden="true"></i></a>
                     </div>
+                    <!--  Pagination Area End -->
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                    <div class="gallery-wrap">
-                        <p class="text-center text-uppercase">QUIENES SOMOS</p>
-                        <h2 class="text-center">PLATERÍA LAVETA</h2>
-                        <p class="text-center">Nace con el fin de modernizar el concepto de artículos de plata e
-                            impulsar a
-                            los orfebres y diseñadores mexicanos,
-                            creando diseños únicos con materiales de nuestro país a través de procesos artesanales.</p>
-                        <p class="text-center">Nuestros diseños son el resultado de una fusión entre lo clásico y lo
-                            contemporáneo, uniendo así la tradición de la
-                            orfebrería mexicana con el diseño y tendencias actuales, brindándole al cliente un objeto
-                            que
-                            retiene su valor y dura...</p>
-                    </div>
-                </div>
+                <!-- Shop Bottom Area End -->
             </div>
         </div>
     </div>
-    <!-- Quienes somos End -->
+    <!-- Shop Page End  -->
     <!-- Footer Area Start -->
     <div class="footer-area">
         <div class="footer-container">
