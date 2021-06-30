@@ -8338,6 +8338,15 @@ a.control_next {
 		text-align: end;
 	}
 }
+@media only screen and (max-width: 500px) {
+	.texto-encima-collections {
+		position: absolute;
+		top: 50%;
+		left: 37%;
+		transform: translate(-30%, -30%);
+		text-align: end;
+	}
+}
 
 /* Colaboraciones */
 .colaboracion-title {
@@ -8352,5 +8361,8 @@ a.control_next {
 @media only screen and (max-width: 760px) {
 	.colaboracion-title {
 		font-size: 22px;
+	}
+	.img-colabariones {
+		height: 50vh;
 	}
 }
