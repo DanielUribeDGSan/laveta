@@ -1537,6 +1537,11 @@ body.offcanvas-open {
 		padding: 50px 0 50px 0;
 	}
 }
+@media only screen and (max-width: 760px) {
+	.espacio-footer-sm {
+		margin-top: 70px;
+	}
+}
 .footer-area .footer-top .single-wedge .footer-logo {
 	margin: 0 0 27px;
 }
@@ -8051,20 +8056,20 @@ Pages - My Account
 	line-height: 18px;
 }
 .newsletter > span.container > .input-footer {
-    padding: 15px;
-    margin: 0;
-    width: 100%;
-    outline: none;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    border-bottom: 1px solid var(--blanco);
-    color: var( --blanco);
-    border-radius: 0px;
-    font-family: -apple-system, helvetica neue, helvetica, arial, sans-serif;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 18px;
+	padding: 15px;
+	margin: 0;
+	width: 100%;
+	outline: none;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 1px solid var(--blanco);
+	color: var(--blanco);
+	border-radius: 0px;
+	font-family: -apple-system, helvetica neue, helvetica, arial, sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 18px;
 }
 .newsletter > span.container .next {
 	display: block;
@@ -8166,6 +8171,18 @@ Pages - My Account
 .arrow-newsletter {
 	width: 40px;
 	margin-top: -21px;
+}
+@media only screen and (max-width: 760px) {
+	.espacio-sm {
+		padding: 0px 10px 10px 10px !important;
+	}
+	.newsletter > span.espacio-sm .next {
+		display: block;
+		position: absolute;
+		height: 53px;
+		width: 53px;
+		top: -1px;
+	}
 }
 /* Slider */
 
