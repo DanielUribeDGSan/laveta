@@ -349,7 +349,7 @@ input {
 /* Fixed Header */
 header {
 	width: 100%;
-	z-index: 3;
+	z-index: 60;
 	position: absolute;
 }
 .sticky-nav.menu_fixed {
